@@ -1,0 +1,114 @@
+\documentclass[12pt]{article}
+%――――――――――――――――――――――――――――――――
+% Set Language
+\usepackage[portuguese]{babel}
+\usepackage[utf8]{inputenc}
+%――――――――――――――――――――――――――――――――
+\usepackage[margin=1.2in]{geometry}
+\usepackage{url}
+\usepackage{graphicx}
+%――――――――――――――――――――――――――――――――
+% Make Captions
+\usepackage{caption}
+%――――――――――――――――――――――――――――――――
+% Make table of contents with link
+\usepackage{color}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+%――――――――――――――――――――――――――――――――
+% Multicolumn
+\usepackage{multicol}
+%――――――――――――――――――――――――――――――――
+% Customize header and footer
+\usepackage{fancyhdr}
+%――――――――――――――――――――――――――――――――
+% Indent Paragraphs
+\usepackage{indentfirst}
+%――――――――――――――――――――――――――――――――
+% Add more sub sections
+\usepackage{titlesec}
+\setcounter{secnumdepth}{4}
+%――――――――――――――――――――――――――――――――
+\begin{document}
+%――――――――――――――――――――――――――――――――
+% Set default path for images
+\graphicspath{ {media/} }
+%――――――――――――――――――――――――――――――――
+% Set Text for Figures & Tables
+\captionsetup[figure]{margin=1.5cm,font=small,labelfont={bf},name={Figura},labelsep=colon,textfont={it}}
+\captionsetup[table]{margin=1.5cm,font=small,labelfont={bf},name={Tabela},labelsep=colon,textfont={it}}
+%――――――――――――――――――――――――――――――――
+% Title Page
+\begin{titlepage}
+
+\center
+
+\includegraphics[width=5cm]{estg.png}\\[1cm]
+\textbf{Escola Superior de Tecnologia e Gestão | P.Porto}\\[0.5cm]
+
+\vfill
+
+\linespread{1.2}\huge {\bfseries Trabalho Prático B}\\[0.5cm]
+\large{\textbf{Gestão de Projetos Informáticos}}
+
+\normalsize{\textbf{Grupo 5} | Ano Letivo 2019/2020}
+
+\vfill
+
+\endcenter
+
+\begin{flushleft}
+\textbf{\small Trabalho realizado por:}\\[0cm]
+
+\begin{itemize}
+	\item{\small Daniel Sousa - 8160334}\\[0cm]
+	\item{\small João Coimbra - 8180544}\\[0cm]
+	\item{\small José Lapa - 8180190}\\[0cm]
+	\item{\small António Barros - 8180513}\\[0cm]
+	\item{\small Tiago Rocha - 8180274}
+
+\end{itemize}
+
+\end{flushleft}
+
+\end{titlepage}
+%――――――――――――――――――――――――――――――――
+% Change page footer and header
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textbf{ESTG | P.Porto}}
+\rhead{\textbf{Gestão de Projetos Informáticos}}
+
+% Header
+\rfoot{Página \textbf{\thepage}}
+%――――――――――――――――――――――――――――――――
+% Table of Contents
+\newpage
+\pagenumbering{roman}
+\tableofcontents
+%――――――――――――――――――――――――――――――――
+% List of figures
+\newpage
+\listoffigures
+%――――――――――――――――――――――――――――――――
+% List of tables
+\newpage
+\listoftables
+%――――――――――――――――――――――――――――――――
+%  Introduction
+\newpage
+\pagenumbering{arabic}
+\input{chapters/introduction}
+%――――――――――――――――――――――――――――――――
+%  Pressupostos Baseline 1
+\newpage
+\input{chapters/pressupostos-baseline1}
+%――――――――――――――――――――――――――――――――
+\medskip
+\end{document}
