@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.25)  25 MAY 2020 22:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.25)  25 MAY 2020 22:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -548,7 +548,7 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count319
 \l__pdf_internal_box=\box101
-) (/Users/tutods/Documents/gpi/main.aux)
+) (/Users/tutods/Documents/gpi/main.aux (/Users/tutods/Documents/gpi/pages/all-chapters.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -678,7 +678,10 @@ This may cause the page layout to be inconsistent, however.
 \tf@lot=\write10
 \openout10 = `main.lot'.
 
- [3]) [4] (./chapters/introduction.tex
+ [3]) [4]
+\openout2 = `pages/all-chapters.aux'.
+
+ (/Users/tutods/Documents/gpi/pages/all-chapters.tex (./chapters/introduction.tex
 Overfull \hbox (3.24242pt too wide) in paragraph at lines 9--10
 \OT1/cmr/m/n/12 de tra-ta-mento de da-dos, re-fe-ri-das no \OT1/cmr/m/it/12 art.$[]$ 35 \OT1/cmr/m/n/12 do []\OT1/cmr/bx/n/12 RGPD \OT1/cmr/m/n/12 ([][]\OT1/cmr/m/it/12 Re-gu-la-mento (UE) 2016/679[][]\OT1/cmr/m/n/12 ). 
  []
@@ -687,7 +690,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 <to be read again> 
                    \relax 
 l.32 \addCenteredImg{fases.png}{Fases do Projeto}
-                                                  [1]
+                                                  [1
+
+]
 <media/fases.png, id=76, 852.18375pt x 259.97125pt>
 File: media/fases.png Graphic file (type png)
 <use media/fases.png>
@@ -704,28 +709,27 @@ See the caption package documentation for explanation.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\glsxtrshort' on input line 5.
 
-)
+)) [3]
 
 Package caption Warning: Unused \captionsetup[table] on input line 4.
 See the caption package documentation for explanation.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
-[3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
- (/Users/tutods/Documents/gpi/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 38.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 38.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 35.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 35.
+(/Users/tutods/Documents/gpi/main.aux (/Users/tutods/Documents/gpi/pages/all-chapters.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 35.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 35.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 8C96E6B8CDDB849D2C9F7D278FA197F2;421.
  ) 
 Here is how much of TeX's memory you used:
- 18621 strings out of 480476
- 317432 string characters out of 5899591
- 707407 words of memory out of 5000000
- 34273 multiletter control sequences out of 15000+600000
+ 18632 strings out of 480476
+ 317828 string characters out of 5899591
+ 707858 words of memory out of 5000000
+ 34277 multiletter control sequences out of 15000+600000
  539869 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,12n,81p,1071b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,12n,85p,1071b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
 Output written on /Users/tutods/Documents/gpi/main.pdf (8 pages, 209017 bytes).
 PDF statistics:

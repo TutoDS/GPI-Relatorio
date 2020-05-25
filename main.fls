@@ -212,6 +212,8 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.d
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT /Users/tutods/Documents/gpi/main.aux
 INPUT /Users/tutods/Documents/gpi/main.aux
+INPUT /Users/tutods/Documents/gpi/pages/all-chapters.aux
+INPUT /Users/tutods/Documents/gpi/pages/all-chapters.aux
 OUTPUT /Users/tutods/Documents/gpi/main.aux
 INPUT /usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -276,6 +278,9 @@ OUTPUT /Users/tutods/Documents/gpi/main.lof
 INPUT /Users/tutods/Documents/gpi/main.lot
 INPUT /Users/tutods/Documents/gpi/main.lot
 OUTPUT /Users/tutods/Documents/gpi/main.lot
+OUTPUT /Users/tutods/Documents/gpi/pages/all-chapters.aux
+INPUT /Users/tutods/Documents/gpi/pages/all-chapters.tex
+INPUT /Users/tutods/Documents/gpi/pages/all-chapters.tex
 INPUT ./chapters/introduction.tex
 INPUT ./chapters/introduction.tex
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
@@ -287,6 +292,8 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT ./chapters/pressupostos-baseline1.tex
 INPUT ./chapters/pressupostos-baseline1.tex
 INPUT /Users/tutods/Documents/gpi/main.aux
+INPUT /Users/tutods/Documents/gpi/pages/all-chapters.aux
+INPUT /Users/tutods/Documents/gpi/pages/all-chapters.aux
 INPUT /Users/tutods/Documents/gpi/main.out
 INPUT /Users/tutods/Documents/gpi/main.out
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
