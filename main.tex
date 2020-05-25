@@ -11,6 +11,11 @@
 % Make Captions
 \usepackage{caption}
 %――――――――――――――――――――――――――――――――
+% Make Acronyms and Glossaries
+\usepackage[acronym, toc]{glossaries-extra}
+\makeglossaries
+\loadglsentries{generic/acro_list}
+%――――――――――――――――――――――――――――――――
 % Make table of contents with link
 \usepackage{color}
 \usepackage{hyperref}
@@ -64,6 +69,9 @@
 \endcenter
 
 \begin{flushleft}
+
+\textbf{Professor} Luís Lima\\[0.65cm]
+
 \textbf{\small Trabalho realizado por:}\\[0cm]
 
 \begin{itemize}
@@ -101,14 +109,19 @@
 \newpage
 \listoftables
 %――――――――――――――――――――――――――――――――
+% List of Acronyms
+\newpage
+\printunsrtglossary[type=\acronymtype,title=Siglas e Acrónimos]
+%――――――――――――――――――――――――――――――――
 %  Introduction
 \newpage
 \pagenumbering{arabic}
-\input{chapters/introduction}
+\include{chapters/introduction}
 %――――――――――――――――――――――――――――――――
 %  Pressupostos Baseline 1
 \newpage
-\input{chapters/pressupostos-baseline1}
-%――――――――――――――――――――――――――――――――
+\include{chapters/pressupostos-baseline1}
 \medskip
+
+%――――――――――――――――――――――――――――――――
 \end{document}
