@@ -1,82 +1,30 @@
 \documentclass[12pt]{article}
 %――――――――――――――――――――――――――――――――
-% Language
-\usepackage[portuguese]{babel}
-\usepackage[utf8]{inputenc}
+% All packages
+\input{configs/packages}
 %――――――――――――――――――――――――――――――――
-\usepackage[margin=1.2in]{geometry}
-\usepackage{url}
-\usepackage{graphicx}
+% All packages
+\input{configs/variables}
 %――――――――――――――――――――――――――――――――
-% Make Captions
-\usepackage{caption}
+% Captions Setup
+\input{configs/captions}
 %――――――――――――――――――――――――――――――――
-% Make Acronyms and Glossaries
-\usepackage[acronym, toc]{glossaries-extra}
-\makeglossaries
-\loadglsentries{generic/acro_list}
-%――――――――――――――――――――――――――――――――
-% Make table of contents with link
-\usepackage{color}
-\usepackage{hyperref}
-\hypersetup{
-    colorlinks,
-    citecolor=black,
-    filecolor=black,
-    linkcolor=black,
-    urlcolor=black
-}
-%――――――――――――――――――――――――――――――――
-% Multicolumn
-\usepackage{multicol}
-%――――――――――――――――――――――――――――――――
-% Customize header and footer
-\usepackage{fancyhdr}
-%――――――――――――――――――――――――――――――――
-% Indent Paragraphs
-\usepackage{indentfirst}
-\usepackage{bashful}
-%――――――――――――――――――――――――――――――――
-% Add more sub sections
-\usepackage{titlesec}
-\setcounter{secnumdepth}{4}
-
-\input{generic/variables}
-\input{generic/captions}
-\input{generic/paths}
+% Paths for Media, ...
+\input{configs/paths}
 %――――――――――――――――――――――――――――――――
 \begin{document}
 \frenchspacing
-
 %――――――――――――――――――――――――――――――――
 % Title Page
-\include{pages/title}
+\input{pages/title}
 %――――――――――――――――――――――――――――――――
-% Change page footer and header
-\pagestyle{fancy}
-\fancyhf{}
-\lhead{\textbf{ESTG | P.Porto}}
-\rhead{\textbf{Gestão de Projetos Informáticos}}
-
-% Header
-\rfoot{Página \textbf{\thepage}}
+% Header and Footer
+\input{configs/header_footer}
 %――――――――――――――――――――――――――――――――
 % Table of Contents
 \newpage
 \pagenumbering{roman}
-\tableofcontents
-%――――――――――――――――――――――――――――――――
-% List of figures
-\newpage
-\listoffigures
-%――――――――――――――――――――――――――――――――
-% List of tables
-\newpage
-\listoftables
-%――――――――――――――――――――――――――――――――
-% List of Acronyms
-\newpage
-\printunsrtglossary[type=\acronymtype,title=Siglas e Acrónimos]
+\input{generic/lists}
 %――――――――――――――――――――――――――――――――
 \newpage
 \pagenumbering{arabic}
