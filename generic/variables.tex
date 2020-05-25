@@ -1,0 +1,12 @@
+%――――――――――――――――――――――――――――――――
+% New command to import chapters
+\newcommand\addchapter[1]{\include{./chapters/#1}}
+%――――――――――――――――――――――――――――――――
+% New command to add image with caption (all aligned to center)
+\newcommand\addCenteredImg[2]{%
+	\begin{center}%
+		\includegraphics[width=1\textwidth]{#1}%
+		\captionof{figure}{#2}%
+	\end{center}
+}
+%――――――――――――――――――――――――――――――――
