@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.25)  25 MAY 2020 21:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.25)  25 MAY 2020 22:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -22,7 +22,7 @@ File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
-) (/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
+) (/Users/tutods/Documents/gpi/configs/packages.tex (/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2020/05/13 3.44 The Babel package
  (/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2020/05/13 3.44 Babel common definitions
@@ -301,11 +301,11 @@ Package: glossary-tree 2020/03/19 v4.46 (NLCT)
 \glo@main@file=\write4
 \openout4 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 17.
+Package glossaries Info: Writing glossary file main.glo on input line 16.
 \glo@acronym@file=\write5
 \openout5 = `main.acn'.
 
-Package glossaries Info: Writing glossary file main.acn on input line 17.
+Package glossaries Info: Writing glossary file main.acn on input line 16.
  (/Users/tutods/Documents/gpi/generic/acro_list.tex) (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
  (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -403,7 +403,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip65
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 28.
+Package hyperref Info: Option `colorlinks' set `true' on input line 27.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \c@tracingmulticols=\count301
@@ -544,29 +544,29 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \titlewidth=\dimen192
 \titlewidthlast=\dimen193
 \titlewidthfirst=\dimen194
-) (/Users/tutods/Documents/gpi/generic/variables.tex) (/Users/tutods/Documents/gpi/generic/captions.tex) (/Users/tutods/Documents/gpi/generic/paths.tex) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+)) (/Users/tutods/Documents/gpi/configs/variables.tex) (/Users/tutods/Documents/gpi/configs/captions.tex) (/Users/tutods/Documents/gpi/configs/paths.tex) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count319
 \l__pdf_internal_box=\box101
 ) (/Users/tutods/Documents/gpi/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -631,7 +631,7 @@ Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box103
-Package hyperref Info: Link coloring ON on input line 48.
+Package hyperref Info: Link coloring ON on input line 15.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
@@ -641,17 +641,16 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count326
 )
-LaTeX Info: Redefining \ref on input line 48.
-LaTeX Info: Redefining \pageref on input line 48.
-LaTeX Info: Redefining \nameref on input line 48.
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
+LaTeX Info: Redefining \nameref on input line 15.
+ (/Users/tutods/Documents/gpi/main.out) (/Users/tutods/Documents/gpi/main.out)
 \@outlinefile=\write7
 \openout7 = `main.out'.
 
 \c@lstlisting=\count327
-\openout2 = `pages/title.aux'.
-
  (/Users/tutods/Documents/gpi/pages/title.tex
-<media/estg.png, id=4, 674.52pt x 150.5625pt>
+<media/estg.png, id=32, 674.52pt x 150.5625pt>
 File: media/estg.png Graphic file (type png)
 <use media/estg.png>
 Package pdftex.def Info: media/estg.png  used on input line 5.
@@ -660,8 +659,11 @@ Package pdftex.def Info: media/estg.png  used on input line 5.
 
 \openout3 = `main.ist'.
 
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/tutods/Documents/gpi/media/estg.png>]) (/Users/tutods/Documents/gpi/configs/header_footer.tex) (/Users/tutods/Documents/gpi/generic/lists.tex (/Users/tutods/Documents/gpi/main.toc
 
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/tutods/Documents/gpi/media/estg.png>])
+Package glossaries-extra Warning: Base acronym command \acrshort should not be used with new abbreviation definitions. Use \glsxtrshort instead on input line 8.
+
+)
 \tf@toc=\write8
 \openout8 = `main.toc'.
 
@@ -672,20 +674,15 @@ Make it at least 14.49998pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[1
-
-]
+[1] (/Users/tutods/Documents/gpi/main.lof)
 \tf@lof=\write9
 \openout9 = `main.lof'.
 
- [2]
+ [2] (/Users/tutods/Documents/gpi/main.lot)
 \tf@lot=\write10
 \openout10 = `main.lot'.
 
- [3] [4]
-\openout2 = `generic/all-chapters.aux'.
-
- (/Users/tutods/Documents/gpi/generic/all-chapters.tex (./chapters/introduction.tex
+ [3]) [4] (./chapters/introduction.tex
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be used with new abbreviation definitions. Use \glsxtrshort instead on input line 3.
 
@@ -698,28 +695,17 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be u
 
 Package glossaries-extra Warning: Base acronym command \acrshort should not be used with new abbreviation definitions. Use \glsxtrshort instead on input line 9.
 
-./chapters/introduction.tex:9: Undefined control sequence.
-l.9 ...c$ 35} do \textbf{\acrshort{rgpd}} (\textif
-                                                  {\href{https://eur-lex.eur...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-
-Overfull \hbox (1.59648pt too wide) in paragraph at lines 9--10
-\OT1/cmr/m/n/12 de tra-ta-mento de da-dos, re-fe-ri-das no \OT1/cmr/m/it/12 art.$[]$ 35 \OT1/cmr/m/n/12 do []\OT1/cmr/bx/n/12 RGPD \OT1/cmr/m/n/12 ([][]Re-gu-la-mento (UE) 2016/679[][]). 
+Overfull \hbox (3.24242pt too wide) in paragraph at lines 9--10
+\OT1/cmr/m/n/12 de tra-ta-mento de da-dos, re-fe-ri-das no \OT1/cmr/m/it/12 art.$[]$ 35 \OT1/cmr/m/n/12 do []\OT1/cmr/bx/n/12 RGPD \OT1/cmr/m/n/12 ([][]\OT1/cmr/m/it/12 Re-gu-la-mento (UE) 2016/679[][]\OT1/cmr/m/n/12 ). 
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.32 \addCenteredImg{fases.png}{Fases do Projeto}
-                                                  [1
-
-]
-<media/fases.png, id=44, 852.18375pt x 259.97125pt>
+                                                  [1]
+<media/fases.png, id=76, 852.18375pt x 259.97125pt>
 File: media/fases.png Graphic file (type png)
 <use media/fases.png>
 Package pdftex.def Info: media/fases.png  used on input line 32.
@@ -738,43 +724,33 @@ Package glossaries-extra Warning: Base acronym command \acrshort should not be u
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\acrshort' on input line 3.
 
-)) [3]
+)
 
 Package caption Warning: Unused \captionsetup[table] on input line 4.
 See the caption package documentation for explanation.
 
-
-Package caption Warning: Unused \captionsetup[lstlisting] on input line 7.
-See the caption package documentation for explanation.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
-(/Users/tutods/Documents/gpi/main.aux (/Users/tutods/Documents/gpi/pages/title.aux) (/Users/tutods/Documents/gpi/generic/all-chapters.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  8C96E6B8CDDB849D2C9F7D278FA197F2;421.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
+[3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
+ (/Users/tutods/Documents/gpi/main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 38.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 38.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 8C96E6B8CDDB849D2C9F7D278FA197F2;421.
  ) 
 Here is how much of TeX's memory you used:
- 18603 strings out of 480476
- 317017 string characters out of 5899591
- 707332 words of memory out of 5000000
- 34269 multiletter control sequences out of 15000+600000
+ 18621 strings out of 480476
+ 317432 string characters out of 5899591
+ 707407 words of memory out of 5000000
+ 34273 multiletter control sequences out of 15000+600000
  539869 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,12n,85p,1046b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,12n,81p,1071b,457s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on /Users/tutods/Documents/gpi/main.pdf (8 pages, 203836 bytes).
+Output written on /Users/tutods/Documents/gpi/main.pdf (8 pages, 208993 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 126 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
  16 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 67 words of extra memory for PDF output out of 10000 (max. 10000000)
 
