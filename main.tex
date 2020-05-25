@@ -35,6 +35,7 @@
 %――――――――――――――――――――――――――――――――
 % Indent Paragraphs
 \usepackage{indentfirst}
+\usepackage{bashful}
 %――――――――――――――――――――――――――――――――
 % Add more sub sections
 \usepackage{titlesec}
@@ -77,14 +78,9 @@
 \newpage
 \printunsrtglossary[type=\acronymtype,title=Siglas e Acrónimos]
 %――――――――――――――――――――――――――――――――
-%  Introduction
 \newpage
 \pagenumbering{arabic}
-\addchapter{introduction}
 %――――――――――――――――――――――――――――――――
-%  Pressupostos Baseline 1
-\newpage
-\addchapter{pressupostos-baseline1}
-\medskip
+\include{generic/all-chapters}
 %――――――――――――――――――――――――――――――――
 \end{document}
