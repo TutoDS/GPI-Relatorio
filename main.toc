@@ -5,4 +5,4 @@
 \contentsline {subsection}{\numberline {1.2}Âmbito do Projeto}{1}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Fases do Projeto}{2}{subsection.1.3}%
 \contentsline {section}{\numberline {2}Pressupostos Baseline 1}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}\acrshort {wbs}}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.1}\glsxtrshort {wbs}}{3}{subsection.2.1}%
