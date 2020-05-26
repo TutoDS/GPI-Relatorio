@@ -1,35 +1,35 @@
 \documentclass[12pt]{article}
 %――――――――――――――――――――――――――――――――
 % All packages
-\include{configs/packages}
+\input{configs/packages}
 %――――――――――――――――――――――――――――――――
 % All packages
-\include{configs/variables}
+\input{configs/variables}
 %――――――――――――――――――――――――――――――――
 % Captions Setup
-\include{configs/captions}
+\input{configs/captions}
 %――――――――――――――――――――――――――――――――
 % Paths for Media, ...
-\include{configs/paths}
+\input{configs/paths}
 %――――――――――――――――――――――――――――――――
 \begin{document}
 \frenchspacing
 %――――――――――――――――――――――――――――――――
 % Title Page
-\include{pages/title}
+\input{pages/title}
 %――――――――――――――――――――――――――――――――
 % Header and Footer
-\include{configs/header_footer}
+\input{configs/header_footer}
 %――――――――――――――――――――――――――――――――
 % Table of Contents
 \newpage
 \pagenumbering{roman}
-\include{generic/lists}
+\input{generic/lists}
 %――――――――――――――――――――――――――――――――
 \newpage
 \pagenumbering{arabic}
 %――――――――――――――――――――――――――――――――
 % All Chapters
-\include{pages/all-chapters}
+\input{pages/all-chapters}
 %――――――――――――――――――――――――――――――――
 \end{document}
